@@ -6,11 +6,11 @@ this NanoDegree helps to learn foundational data skills that apply across functi
 # Welcome to the Nanodegree program
 Meet your instructors and learn how to optimize your classroom. Learn how people use data to answer questions, and find your own insights from a data dashboard.
 
-# Project1: Interpret a Data Visualization
+# Project 1: Interpret a Data Visualization
 Introduction to Data
 Learn how to use statistics and visuals to find and communicate insights. Develop Excel skills to manipulate, analyze, and visualize data in a spreadsheet. Build Excel models to analyze possible business outcomes.
 
-# Project2: Analyze NYSE Data
+# Project 2: Analyze NYSE Data
 Problem Solving with Analytics
 The course will take you through two key analytical concepts to help you understand any business situation and help you choose the correct techniques to analyze your data.
 Cross Industry Standard Process for Data Mining (CRISP-DM)
@@ -28,6 +28,6 @@ This course also covers SQL funtions with DATE, CASE, POSITION & STRPOS, CONCAT,
 
 
 
-# Project4: Build Data Dashboards
+# Project 4: Build Data Dashboards
 Acknowledgement:
 I'd like to thanks Udacity and Misk Academy for this great opportunity.
