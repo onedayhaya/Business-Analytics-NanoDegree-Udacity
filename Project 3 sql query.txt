@@ -1,0 +1,39 @@
+1 - what are the top 5 artists who have released albums? 
+
+select Artist.Name ,  count(Album.ArtistId)  "Number of album"
+from Album
+
+JOIN Artist on Album.ArtistId = Artist.ArtistId 
+
+GROUP by  Artist.Name
+order by "Number of Album"  DESC
+limit 5;
+
+
+
+
+2 -   What are the most customers buying music? 
+
+SELECT (Customer.FirstName  || " " ||  Customer.LastName) as CustomerName , sum(Invoice.Total) as total 
+from Invoice
+INNER join Customer on Invoice.CustomerId = Customer.CustomerId
+GROUP by CustomerName ORDER by total DESC LIMIT 5;
+
+
+
+3 -   what are the top 5 MediaType format used? 
+
+select MediaType.Name , count(Track.MediaTypeId) as Total 
+from Track
+JOIN MediaType on Track.MediaTypeId = MediaType.MediaTypeId
+
+GROUP by MediaType.Name ORDER by total DESC LIMIT 5 ;
+
+
+4 -   who is the most supportive employee? 
+
+select (Employee.FirstName || " " || Employee.LastName) as EmployeeName  , count(Customer.CustomerId) as "Number of customer"
+from Employee
+JOIN Customer on Employee.EmployeeId = Customer.SupportRepId
+
+GROUP by EmployeeName ;
